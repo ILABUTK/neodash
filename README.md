@@ -80,3 +80,7 @@ If you have any questions about NeoDash, please reach out to the maintainers:
 - Create a post on the Neo4j [Community Forum](https://community.neo4j.com/).
 
 > NeoDash is a free and open-source tool developed by the Neo4j community - not an official Neo4j product. If you have a need for a commercial agreement around training, custom extensions or other services, please contact the [Neo4j Professional Services](https://neo4j.com/professional-services/) team.
+
+## XP - logs
+- docker build . -t ilabutk/neodash
+- docker push

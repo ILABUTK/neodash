@@ -19,7 +19,8 @@ RUN yarn run build-minimal
 FROM nginx:alpine3.18 AS neodash
 RUN apk upgrade
 
-ENV NGINX_PORT=5005
+# change to 80 from 5005
+ENV NGINX_PORT=80
 
 COPY --from=build-stage /usr/local/src/neodash/dist /usr/share/nginx/html
 COPY ./conf/default.conf.template /etc/nginx/templates/
